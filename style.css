@@ -1,9 +1,12 @@
 body {
-    background-color: #3c0451; /* hex */
-    font-family: Apple Chancery, cursive;
+    margin: 0;
+    padding: 0;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    background-color: #3c0451; /* Purple*/
 }
 
 .container {
+    position: relative;
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
@@ -15,11 +18,18 @@ h1 {
 }
 
 p {
-    color: #333;
+    color: #D21401;
     line-height: 1.5;
 }
 
 a {
     text-decoration: none;
     color: blue;
+}
+
+.gif-image {
+    position: absolute;
+    bottom: -20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
 }
